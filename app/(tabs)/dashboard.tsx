@@ -15,7 +15,7 @@ export default function DashboardScreen() {
         <Ionicons
           name="arrow-back"
           size={24}
-          color="#0057B8"
+          color="#800000"
         />
 
         <Text style={styles.backText}>
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
 
   backText: {
     marginLeft: 5,
-    color: "#0057B8",
+    color: "#800000",
     fontSize: 16,
     fontWeight: "600",
   },
@@ -107,6 +107,7 @@ const styles = StyleSheet.create({
   greeting: {
     fontSize: 30,
     fontWeight: "bold",
+    color: "#800000"
   },
 
   sub: {
@@ -115,7 +116,7 @@ const styles = StyleSheet.create({
   },
 
   card: {
-    backgroundColor: "white",
+    backgroundColor: "#800000",
     borderRadius: 20,
     padding: 15,
     marginBottom: 20,
@@ -131,10 +132,11 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: "bold",
     marginTop: 10,
+    color: "white"
   },
 
   location: {
-    color: "gray",
+    color: "white",
     marginTop: 5,
   },
 });

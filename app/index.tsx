@@ -48,7 +48,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0057B8",
+    backgroundColor: "#800000",
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
   buttonText: {
   fontSize: 16,
   fontWeight: "600",
-  color: "#0057B8",
+  color: "#800000",
 },
 
 startButton: {
